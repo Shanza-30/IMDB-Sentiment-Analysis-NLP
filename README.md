@@ -1,8 +1,7 @@
 # IMDB Sentiment Analysis NLP
 
 ## Overview
-This project demonstrates a simple **Natural Language Processing (NLP)** task: **sentiment analysis** on movie reviews.  
-We use the **IMDB dataset** containing 50,000 positive and negative reviews to train a model that predicts whether a review is positive or negative.
+This project demonstrates a simple Natural Language Processing (NLP) task: sentiment analysis on movie reviews. We use the IMDB dataset containing 50,000 positive and negative reviews to train a model that predicts whether a review is positive or negative, and implement Spark Que Tech Task 5 for scalable data processing and model training."
 
 ---
 
@@ -34,11 +33,11 @@ We use the **IMDB dataset** containing 50,000 positive and negative reviews to t
 review = input("Enter your review: ")
 print("Sentiment:", predict_sentiment(review))
 
-Dataset
+## Dataset
 
 Source: IMDB Dataset of 50K Movie Reviews
 
- Results
+ ## Results
 
 Accuracy: ~85-90%
 
